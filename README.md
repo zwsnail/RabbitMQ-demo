@@ -7,7 +7,7 @@
 `docker run -d --name YouName-of-rabbitmq -p 5672:5672 -p 15672:15672 -v /Users/me/Yourfolder/:/var/lib/rabbitmq rabbitmq:3-management
 `
 
-#####More info 🐳
+##### More info 🐳
 https://registry.hub.docker.com/_/rabbitmq/?tab=description
 
 
