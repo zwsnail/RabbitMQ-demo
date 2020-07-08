@@ -1,6 +1,6 @@
 # RabbitMQ-demo
 
-#####1.Pull a docker image
+###### 1.Pull a docker image
 
 `docker pull rabbitma:3-management`
 
@@ -9,17 +9,17 @@
 https://registry.hub.docker.com/_/rabbitmq/?tab=description
 
 
-#####2.Install AMQPlib
+###### 2.Install AMQPlib
 
 `composer install`
 
-#####3.Connection
+###### 3.Connection
 
 ```$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest)```
 
-You could change or add the login name&password via the management-page:  **localhost:15672**
+>You could change or add the login name&password via the management-page:  **localhost:15672**
 
-#####4.How to use
+###### 4.How to use
 
 Open more terminals to try each situation🎰
 ```
